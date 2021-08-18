@@ -3,12 +3,12 @@
 
 
 int main(){
-    char s[25];
+    char name[22];  
     //    
     printf("Enter name: ");
-      scanf("%s", &s);
+      scanf("%s", &sname);
       //
-      printf("%s Hello Word", s);
+      printf("%s Hello Word", name);
       //
     return 0;
 }
